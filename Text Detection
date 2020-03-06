@@ -1,0 +1,4 @@
+!pip install pytesseract
+# !curl https://raw.githubusercontent.com/jlsutherland/doc2text/master/install_deps.sh | bash
+!sudo apt install tesseract-ocr
+
