@@ -1,0 +1,10 @@
+product_dictionary = './files/product_dictionary.csv'
+units_dictionary = './files/units_dictionary.csv'
+
+products = pd.read_csv(product_dictionary)
+products = pd.get_dummies(products,prefix=['product_name'])
+units = pd.read_csv(units_dictionary)
+
+units= pd.get_dummies(units,prefix=['units'])
+sample_out = pd.read_csv('./files/sample_output.csv')
+
